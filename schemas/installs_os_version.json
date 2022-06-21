@@ -12,7 +12,7 @@
     {
         "name": "android_os_version",
         "type": "string",
-        "description": ""
+        "description": "Версия Android"
     },
     {
         "name": "daily_device_installs",

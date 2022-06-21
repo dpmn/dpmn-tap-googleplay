@@ -2,66 +2,66 @@
     {
         "name": "date",
         "type": "DATE",
-        "description": ""
+        "description": "Дата"
     },
     {
         "name": "package_name",
         "type": "string",
-        "description": ""
+        "description": "Название пакета"
     },
     {
         "name": "app_version_code",
         "type": "integer",
-        "description": ""
+        "description": "Код версии приложения"
     },
     {
         "name": "daily_device_installs",
         "type": "integer",
-        "description": ""
+        "description": "Установки за день (все устройства)"
     },
     {
         "name": "daily_device_uninstalls",
         "type": "integer",
-        "description": ""
+        "description": "Удаления за день (все устройства)"
     },
     {
         "name": "daily_device_upgrades",
         "type": "integer",
-        "description": ""
+        "description": "Обновления за день (все устройства)"
     },
     {
         "name": "total_user_installs",
         "type": "integer",
-        "description": ""
+        "description": "Общее количество установок (все пользователи)"
     },
     {
         "name": "daily_user_installs",
         "type": "integer",
-        "description": ""
+        "description": "Установки за день (все пользователи)"
     },
     {
         "name": "daily_user_uninstalls",
         "type": "integer",
-        "description": ""
+        "description": "Удаления за день (все пользователи)"
     },
     {
         "name": "active_device_installs",
         "type": "integer",
-        "description": ""
+        "description": "Количество установок на активных устройствах"
     },
     {
         "name": "install_events",
         "type": "integer",
-        "description": ""
+        "description": "Количество событий установки"
     },
     {
         "name": "update_events",
         "type": "integer",
-        "description": ""
+        "description": "Количество событий обновления"
     },
     {
         "name": "uninstall_events",
         "type": "integer",
-        "description": ""
+        "description": "Количество событий удаления"
     }
 ]

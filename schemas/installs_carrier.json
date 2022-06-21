@@ -12,7 +12,7 @@
     {
         "name": "carrier",
         "type": "string",
-        "description": ""
+        "description": "Оператор"
     },
     {
         "name": "daily_device_installs",

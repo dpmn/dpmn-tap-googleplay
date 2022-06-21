@@ -12,7 +12,7 @@
     {
         "name": "language",
         "type": "string",
-        "description": ""
+        "description": "Язык"
     },
     {
         "name": "daily_device_installs",

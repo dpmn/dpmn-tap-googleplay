@@ -12,7 +12,7 @@
     {
         "name": "country",
         "type": "string",
-        "description": ""
+        "description": "Страна"
     },
     {
         "name": "daily_device_installs",

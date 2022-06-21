@@ -12,7 +12,7 @@
     {
         "name": "device",
         "type": "string",
-        "description": ""
+        "description": "Устройство"
     },
     {
         "name": "daily_device_installs",
