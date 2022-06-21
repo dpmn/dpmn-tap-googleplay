@@ -1,11 +1,11 @@
 import json
 import os
+
 from io import BytesIO
+from pandas import read_csv
 
 from google.cloud import storage
 from google.oauth2 import service_account
-
-from pandas import read_csv
 
 
 class GooglePlay:
@@ -31,7 +31,11 @@ class GooglePlay:
         blob_name = f'stats/{point}/{point}_{package_name}_{month}_{dimension}.csv'
         blob = bucket.get_blob(blob_name)
 
-        raw_data = blob.download_as_bytes().decode('utf-16').encode('utf-8')
+        try:
+            raw_data = blob.download_as_bytes().decode('utf-16').encode('utf-8')
+        except AttributeError:
+            return []
+
         csv_data = read_csv(BytesIO(raw_data), sep=',')
         json_data = csv_data.to_json(orient='table', date_format='iso', index=False)
         result = json.loads(json_data)
