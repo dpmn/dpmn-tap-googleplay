@@ -1,0 +1,67 @@
+[
+    {
+        "name": "date",
+        "type": "DATE",
+        "description": ""
+    },
+    {
+        "name": "package_name",
+        "type": "string",
+        "description": ""
+    },
+    {
+        "name": "android_os_version",
+        "type": "string",
+        "description": ""
+    },
+    {
+        "name": "daily_device_installs",
+        "type": "integer",
+        "description": ""
+    },
+    {
+        "name": "daily_device_uninstalls",
+        "type": "integer",
+        "description": ""
+    },
+    {
+        "name": "daily_device_upgrades",
+        "type": "integer",
+        "description": ""
+    },
+    {
+        "name": "total_user_installs",
+        "type": "integer",
+        "description": ""
+    },
+    {
+        "name": "daily_user_installs",
+        "type": "integer",
+        "description": ""
+    },
+    {
+        "name": "daily_user_uninstalls",
+        "type": "integer",
+        "description": ""
+    },
+    {
+        "name": "active_device_installs",
+        "type": "integer",
+        "description": ""
+    },
+    {
+        "name": "install_events",
+        "type": "integer",
+        "description": ""
+    },
+    {
+        "name": "update_events",
+        "type": "integer",
+        "description": ""
+    },
+    {
+        "name": "uninstall_events",
+        "type": "integer",
+        "description": ""
+    }
+]
